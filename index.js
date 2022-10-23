@@ -78,7 +78,7 @@ console.log(getInt(11))
 
 function setBg () {
     const img = new Image();
-    img.src = `/bg${randomNumber}.jpg`;
+    img.src = `https://raw.githubusercontent.com/armen891/KiberOneJavaScript/main/bg${randomNumber}.jpg`;
     img.onload = () => {
         document.body.style.backgroundImage = `url(${img.src})`
     }
